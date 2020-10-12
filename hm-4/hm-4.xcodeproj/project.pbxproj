@@ -7,9 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		EC17696525347CB800628BEF /* rapgodSong.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EC17696425347CB800628BEF /* rapgodSong.mp3 */; };
-		EC17696725347CC500628BEF /* thankuSong.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EC17696625347CC500628BEF /* thankuSong.mp3 */; };
-		EC17696925347CCF00628BEF /* sorrySong.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EC17696825347CCF00628BEF /* sorrySong.mp3 */; };
+		EC1769782534912F00628BEF /* lucidDream.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EC1769742534912E00628BEF /* lucidDream.mp3 */; };
+		EC1769792534912F00628BEF /* thankuSong.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EC1769752534912F00628BEF /* thankuSong.mp3 */; };
+		EC17697A2534912F00628BEF /* rapgodSong.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EC1769762534912F00628BEF /* rapgodSong.mp3 */; };
+		EC17697B2534912F00628BEF /* sorrySong.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EC1769772534912F00628BEF /* sorrySong.mp3 */; };
 		EC17F6D5253343C100293736 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC17F6D4253343C100293736 /* AppDelegate.swift */; };
 		EC17F6D7253343C100293736 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC17F6D6253343C100293736 /* SceneDelegate.swift */; };
 		EC17F6D9253343C100293736 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC17F6D8253343C100293736 /* ViewController.swift */; };
@@ -24,9 +25,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		EC17696425347CB800628BEF /* rapgodSong.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = rapgodSong.mp3; sourceTree = SOURCE_ROOT; };
-		EC17696625347CC500628BEF /* thankuSong.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = thankuSong.mp3; sourceTree = SOURCE_ROOT; };
-		EC17696825347CCF00628BEF /* sorrySong.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sorrySong.mp3; sourceTree = "<group>"; };
+		EC1769742534912E00628BEF /* lucidDream.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = lucidDream.mp3; sourceTree = "<group>"; };
+		EC1769752534912F00628BEF /* thankuSong.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = thankuSong.mp3; sourceTree = "<group>"; };
+		EC1769762534912F00628BEF /* rapgodSong.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = rapgodSong.mp3; sourceTree = "<group>"; };
+		EC1769772534912F00628BEF /* sorrySong.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sorrySong.mp3; sourceTree = "<group>"; };
 		EC17F6D1253343C100293736 /* hm-4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "hm-4.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC17F6D4253343C100293736 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EC17F6D6253343C100293736 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -72,9 +74,10 @@
 		EC17F6D3253343C100293736 /* hm-4 */ = {
 			isa = PBXGroup;
 			children = (
-				EC17696825347CCF00628BEF /* sorrySong.mp3 */,
-				EC17696625347CC500628BEF /* thankuSong.mp3 */,
-				EC17696425347CB800628BEF /* rapgodSong.mp3 */,
+				EC1769742534912E00628BEF /* lucidDream.mp3 */,
+				EC1769762534912F00628BEF /* rapgodSong.mp3 */,
+				EC1769772534912F00628BEF /* sorrySong.mp3 */,
+				EC1769752534912F00628BEF /* thankuSong.mp3 */,
 				EC17F6D6253343C100293736 /* SceneDelegate.swift */,
 				EC17F6D8253343C100293736 /* ViewController.swift */,
 				EC17F6DA253343C100293736 /* Main.storyboard */,
@@ -149,12 +152,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EC17696525347CB800628BEF /* rapgodSong.mp3 in Resources */,
-				EC17696925347CCF00628BEF /* sorrySong.mp3 in Resources */,
 				EC17F6E1253343C400293736 /* LaunchScreen.storyboard in Resources */,
-				EC17696725347CC500628BEF /* thankuSong.mp3 in Resources */,
 				EC17F6DE253343C400293736 /* Assets.xcassets in Resources */,
+				EC17697A2534912F00628BEF /* rapgodSong.mp3 in Resources */,
+				EC1769792534912F00628BEF /* thankuSong.mp3 in Resources */,
+				EC1769782534912F00628BEF /* lucidDream.mp3 in Resources */,
 				EC17F6DC253343C100293736 /* Main.storyboard in Resources */,
+				EC17697B2534912F00628BEF /* sorrySong.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

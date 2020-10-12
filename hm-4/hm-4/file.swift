@@ -21,8 +21,23 @@ struct Artist {
 }
 
 var artistAry: [Artist] = [
-    .init(name: "eminem", imageName: "mnm", songs: [Song(name: "Rap God", imageName: "rapGod", musicName: "rapgodSong")]),
-    .init(name: "justin bieber", imageName: "justin", songs: [Song(name: "Sorry", imageName: "sorry", musicName: "sorrySong")]),
-    .init(name: "areana grande", imageName: "areana", songs: [Song(name: "Thank you ,Next", imageName: "thanku", musicName: "thankuSong")])
+    .init(name: "eminem", imageName: "mnm", songs: mnmSong),
+    .init(name: "justin bieber", imageName: "justin", songs: justinBeber),
+    .init(name: "areana grande", imageName: "areana", songs: areanaGrande),
+    .init(name: "juis world", imageName: "Juis World", songs: juis)
+    
+]
+
+var mnmSong: [Song] = [
+.init(name: "Rap God", imageName: "rapGod", musicName: "rapgodSong")
+]
+var justinBeber: [Song] = [
+.init(name: "Sorry", imageName: "sorry", musicName: "sorrySong")
+]
+var areanaGrande: [Song] = [
+.init(name: "Thank you ,Next", imageName: "thanku", musicName: "thankuSong")
+]
+var juis: [Song] = [
+.init(name: "Lucid Dream", imageName: "lucid dream", musicName: "lucidDream")
 ]
 
